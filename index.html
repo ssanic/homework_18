@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="header__menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About me</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contacts</a></li>
+                </ul>
+                <a class="header__button" href="#">
+                    <img src="./assets/icons/menu_icon.png" alt="menu_icon">
+                </a>
+            </div>
+        </header>
+
+        <div class="info">
+            <div class="info__content">
+                <h1 class="info__title">Denis <br> Novik</h1>
+                <p class="info__text">UX | UI designer <br> 24 years old, Minsk</p>
+                <div class="language"> <b>ENG</b> | RU</div>
+            </div>
+            <picture>
+                <source media="(max-width:480px)" srcset="./assets/mobile/hero_mobile.png">
+                <source media="(min-width:600px)" srcset="./assets/deks/hero_image.png">
+                
+                <img src="./assets/mobile/hero_mobile.png" class= "info__image" alt="Denis Novik">
+            </picture>
+        </div>
+
+        <div class="about-me">
+            <h1 class="line__title">About me</h1>
+            <p class="line__text">Hi, I'm Denis – UX/UI designer from Minsk. I'm interested in design and everything connected with it.</p>                
+            <p class="line__text">I'm studying at courses "Web and mobile design interfaces" in IT-Academy.</p>               
+            <p class="line__text">Ready to implement excellent projects with wonderful people.</p>
+        </div>
+
+        <div class="skills">
+            <h2 class="line__title">Skills</h2>
+            <p class="line__text">I work in such programs as</p>
+            <div class="skills__cards-container">
+                <div class="skill-card">
+                    <img src="./assets/icons/photoshop.png" alt="Adobe Photoshop">
+                    <p class="skill-card__title">Adobe Photoshop</p>
+                    <div class="skill-card__raiting">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/white_star.png" alt="white_star">
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/icons/illustartor.png" alt="Adobe Illustrator">
+                    <p class="skill-card__title">Adobe Illustrator</p>
+                    <div class="skill-card__raiting">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/white_star.png" alt="white_star">
+                        <img src="./assets/icons/white_star.png" alt="white_star">
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/icons/after_effects.png" alt="Adobe After Effects">
+                    <p class="skill-card__title">Adobe After Effects</p>
+                    <div class="skill-card__raiting">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/white_star.png" alt="white_star">
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <img src="./assets/icons/figma.png" alt="Figma">
+                    <p class="skill-card__title">Figma</p>
+                    <div class="skill-card__raiting">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/black_star.png" alt="black_star">
+                        <img src="./assets/icons/white_star.png" alt="white_star">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="portfolio">
+            <h1 class="line__title">Portfolio</h1>
+            <div class="portfolio-card">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="./assets/mobile/portfolio_mobile1.png">
+                    <source media="(min-width: 600px)" srcset="./assets/deks/portfolio_img1.png">
+                    <img src="./assets/mobile/portfolio_mobile1.png" class="portfolio-card__img" alt="Online fashion store - Homepage">
+                </picture>
+                
+                <p class="portfolio__text">Online fashion store - Homepage</p>
+            </div>
+            <div class="portfolio-card">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="./assets/mobile/portfolio_mobile2.png">
+                    <source media="(min-width: 600px)" srcset="./assets/deks/portfolio_img2.png">
+                    <img src="./assets/mobile/portfolio_mobile2.png" class="portfolio-card__img" alt="Reebok Store - Concept">
+                </picture>
+                <p class="portfolio__text">Reebok Store - Concept</p>
+            </div>
+            <div class="portfolio-card">
+                <picture>
+                    <source media="(max-width: 480px)" srcset="./assets/mobile/portfolio_mobile3.png">
+                    <source media="(min-width: 600px)" srcset="./assets/deks/portfolio_img3.png">
+                    <img src="./assets/mobile/portfolio_mobile3.png" class="portfolio-card__img" alt="Braun Landing Page - Concept">
+                </picture>
+                <p class="portfolio__text">Braun Landing Page - Concept</p>
+            </div>
+        </div>
+        <div class="contacts">
+            <h1 class="line__title">Contacts</h1>
+            <p class="line__text">Want to know more or just chat? <br> You are welcome!</p>
+            <button class="contacts_button">Send Message</button>
+            <div class="contacts__content">
+                <ul class="contacts_icons">
+                    <li class="contacts_icon"><a href="#"><img src="./assets/icons/link.png" alt="link"></a></li>
+                    <li class="contacts_icon"><a href="#"><img src="./assets/icons/instagram.png" alt="instagram"></a></li>
+                    <li class="contacts_icon"><a href=""><img src="./assets/icons/behance.png" alt="behance"></a></li>
+                    <li class="contacts_icon"><a href=""><img src="./assets/icons/basketball_ball.png" alt="ball"></a></li>
+                </ul>
+            </div>
+            <p class="contacts_text">Like me on 
+               <br> LinkedIn, Instagram, Behance, Dribble</p>
+        </div>
+    </div>
+</body>
+</html>
